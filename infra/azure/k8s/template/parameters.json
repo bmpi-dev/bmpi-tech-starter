@@ -1,0 +1,63 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "resourceName": {
+            "value": "k8s-bmpi"
+        },
+        "location": {
+            "value": "eastus"
+        },
+        "dnsPrefix": {
+            "value": "k8s-bmpi-dns"
+        },
+        "kubernetesVersion": {
+            "value": "1.20.9"
+        },
+        "networkPlugin": {
+            "value": "azure"
+        },
+        "enableRBAC": {
+            "value": true
+        },
+        "enablePrivateCluster": {
+            "value": false
+        },
+        "enableHttpApplicationRouting": {
+            "value": false
+        },
+        "enableAzurePolicy": {
+            "value": false
+        },
+        "vmssNodePool": {
+            "value": true
+        },
+        "vnetSubnetID": {
+            "value": "/subscriptions/c0865aa2-b6a3-4853-a888-0d91f5bb9f05/resourceGroups/k8s-bmpi/providers/Microsoft.Network/virtualNetworks/k8s-bmpi-vnet/subnets/default"
+        },
+        "serviceCidr": {
+            "value": "10.1.0.0/16"
+        },
+        "dnsServiceIP": {
+            "value": "10.1.0.10"
+        },
+        "dockerBridgeCidr": {
+            "value": "172.17.0.1/16"
+        },
+        "workspaceName": {
+            "value": "DefaultWorkspace-c0865aa2-b6a3-4853-a888-0d91f5bb9f05-EUS"
+        },
+        "omsWorkspaceId": {
+            "value": "/subscriptions/c0865aa2-b6a3-4853-a888-0d91f5bb9f05/resourceGroups/DefaultResourceGroup-EUS/providers/Microsoft.OperationalInsights/workspaces/DefaultWorkspace-c0865aa2-b6a3-4853-a888-0d91f5bb9f05-EUS"
+        },
+        "workspaceRegion": {
+            "value": "eastus"
+        },
+        "acrName": {
+            "value": "k8sbmpi"
+        },
+        "acrResourceGroup": {
+            "value": "k8s-bmpi"
+        }
+    }
+}
