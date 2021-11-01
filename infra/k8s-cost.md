@@ -16,16 +16,18 @@ Note: **The following assumptions only consider the development and test environ
 - Kubernetes master $2.40 per day
 - Nodes (1) x (2 vCPU 4GB RAM) $1 per day
 - Load balancer ~$1.00 per day
+- Disk (TBD)
 
-total $4.4 per day
+total $4.4 per day ($132 per month)
 
 ### GCP
 
 - Kubernetes master $2.40 per day<sup>1</sup>
 - Nodes (1) x (1 vCPU 3.75GB RAM) $1.14 per day
 - Load balancer ~$0.60 per day
+- Disk (TBD)
 
-total $4.14 per day
+total $4.14 per day ($124.2 per month)
 
 Note<sub>1</sub>: if you are running a cluster in only a single zone, you will not incur this fee.
 
@@ -38,15 +40,20 @@ Note<sub>1</sub>: if you are running a cluster in only a single zone, you will n
 - Container registry $0.6 per day
 - VNet $0.2 per day
 
-total $2.4 - $3.01 per day
+total $2.4 - $3.01 per day ($72 - $90.3 per month)
 
 ### DigitalOcean/Vultr
 
 - Kubernetes master (free)
 - Nodes (1) x (2 vCPU 4GB RAM) $0.67 per day
 - Load balancer $0.33 per day (Optional)
+- Disk (Can use OS disk, 80G * 2, free)
 
 total $0.67 - $1 per day ($20 - $30 per month)
+
+## Infra service
+
+- [Convox](https://convox.com/)
 
 ## Reference Links
 
