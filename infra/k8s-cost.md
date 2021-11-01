@@ -59,5 +59,5 @@ total $0.67 - $1 per day ($20 - $30 per month)
 
 - [Run Kubernetes in Azure the Cheap Way | Thomas Stringer](https://trstringer.com/cheap-kubernetes-in-azure/)
 - [Cheap AKS Update - Basic Load Balancer | Thomas Stringer](https://trstringer.com/cheap-aks-load-balancer/)
-- [Convox](https://convox.com/blog/cost-of-running-k8s/)
+- [Cost of running k8s](https://convox.com/blog/cost-of-running-k8s/)
 - [DigitalOcean Kubernetes Without a Load Balancer - Mike Cartmell's blog](https://mike.sg/2021/08/31/digitalocean-kubernetes-without-a-load-balancer/)
