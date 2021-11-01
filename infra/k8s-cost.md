@@ -51,6 +51,14 @@ total $2.4 - $3.01 per day ($72 - $90.3 per month)
 
 total $0.67 - $1 per day ($20 - $30 per month)
 
+## K8S Resource(CPU/Memory) Cost
+
+![](https://pbs.twimg.com/media/FDA39DEVIAEku8p?format=jpg&name=4096x4096)
+
+![](https://pbs.twimg.com/media/FDA4QnVVIAA21AA?format=jpg&name=4096x4096)
+
+Kube system use memory is 2G(12 Pods), almost half of the Node's memory(4G).
+
 ## Infra service
 
 - [Convox](https://convox.com/)
