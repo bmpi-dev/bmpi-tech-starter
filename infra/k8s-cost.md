@@ -1,5 +1,7 @@
 ## K8S Cluster Cost Compare
 
+![](https://pbs.twimg.com/media/C-NknkeUwAAxSQs?format=jpg&name=large)
+
 In theory the set of services required to run a web app on Kubernetes is relatively simple. You will need:
 
 - A Kubernetes master (manager)
